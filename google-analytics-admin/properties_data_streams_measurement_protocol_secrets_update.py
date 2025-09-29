@@ -75,7 +75,7 @@ def update_measurement_protocol_secret(
 
     print("Result:")
     print(f"Resource name: {measurement_protocol_secret.name}")
-    print(f"Secret value: {measurement_protocol_secret.secret_value}")
+    print("Secret value: [REDACTED]")
     print(f"Display name: {measurement_protocol_secret.display_name}")
 
 
